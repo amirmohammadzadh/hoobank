@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between;
+  width: 100%;
+  height: max-content;
+  padding: 1rem 0 !important;
+}
+
+.navbar__logo {
+  width: 124px;
+  height: 32px;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+}
+
+.navbar__menu_item {
+  list-style: none;
+  color: #ffffffb3;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
