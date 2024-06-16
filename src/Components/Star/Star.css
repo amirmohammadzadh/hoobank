@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 999999999;
   width: 100%;
 }
 
@@ -51,7 +52,10 @@
   grid-gap: 10px;
   padding: 2rem;
   border-radius: 10px;
-  z-index: 9999 !important;
+}
+
+.star__icon {
+  z-index: 99999;
 }
 
 .starIcon__left * {

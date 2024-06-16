@@ -9,8 +9,8 @@ export default function Header() {
   return (
     <div className="header">
       <Navbar />
-      <Bg marginTop={"-2000px"} marginRight={"-700px"} zIndex={'-99999'} />
-      <Bg marginTop={"700px"} marginRight={"1600px"} zIndex={'-9999999'} />
+      <Bg marginTop={"-2000px"} marginRight={"-700px"} zIndex={"-99999"} />
+      <Bg marginTop={"700px"} marginRight={"1600px"} zIndex={"-9999999"} />
       <GetStarted />
       <div className="header__hero container">
         <div className="header__text">
