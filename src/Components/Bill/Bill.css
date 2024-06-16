@@ -1,0 +1,34 @@
+.bill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+}
+
+.bill__left img {
+  width: 620px;
+  height: 575px;
+}
+
+.bill__right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bill__right h3 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.bill__right p {
+  color: #ffffffb3;
+  font-size: 18px;
+}
+
+.bill__right_app-store img {
+  cursor: pointer;
+}

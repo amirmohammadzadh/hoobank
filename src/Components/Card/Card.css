@@ -1,0 +1,49 @@
+.card__bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 9999;
+}
+
+.card__left {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card__left h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.card__left p {
+  color: #ffffffb3;
+  font-size: 18px;
+}
+
+.card__left button {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.card__right {
+  width: 620px;
+}
+
+.card__right img {
+  width: 100%;
+}

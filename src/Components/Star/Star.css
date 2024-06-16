@@ -1,0 +1,81 @@
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.star__caption {
+  z-index: 9999;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.star__caption h1 {
+  font-size: 3.5rem;
+  color: #ffffffb3;
+  width: 80%;
+}
+
+.star__caption p {
+  width: 65%;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.star__caption_btn {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.starIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  grid-gap: 10px;
+  padding: 2rem;
+  border-radius: 10px;
+  z-index: 9999 !important;
+}
+
+.starIcon__left * {
+  padding: 10px;
+  background-color: #a3f4e549;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
+
+.starIcon:hover {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.starIcon__right h3 {
+  font-size: 16px;
+}
+
+.starIcon__right p {
+  letter-spacing: 0.5px;
+  width: 500px;
+}

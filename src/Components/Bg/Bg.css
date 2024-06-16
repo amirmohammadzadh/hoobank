@@ -1,0 +1,8 @@
+.bg {
+  background: radial-gradient(circle, rgba(188, 165, 255, 1) 0%, #00040f 40%);
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.2;
+  border-radius: 50%;
+}

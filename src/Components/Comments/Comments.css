@@ -1,0 +1,86 @@
+.comment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+  flex-direction: column;
+  z-index: 999999;
+}
+
+.comment__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.comment__top h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.comment__top p {
+  color: #ffffffb3;
+  font-size: 1.3rem;
+}
+
+.comment__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.comment__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem 2rem 2rem;
+  border-radius: 15px;
+}
+
+.comment__item:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    150deg,
+    rgba(255, 255, 255, 1) -278%,
+    rgba(109, 109, 109, 1) -78%,
+    rgba(17, 16, 29, 1) 91%
+  );
+}
+
+.comment__item h3 {
+  font-size: 1.1rem;
+  width: 280px;
+  color: #fff;
+  line-height: 2rem;
+}
+
+.comment__profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.comment__profile img {
+  width: 40px;
+}
+
+.comment__profile_title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.comment__profile_title h2 {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.comment__profile_title span {
+  color: #ffffffb3;
+}
