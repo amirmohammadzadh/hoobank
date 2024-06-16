@@ -3,8 +3,8 @@ import { FaArrowPointer } from "react-icons/fa6";
 import "./Header.css";
 export default function GetStarted() {
   return (
-    <div className="get">
+    <p className="get text">
       Get <FaArrowPointer /> <br /> Started
-    </div>
+    </p>
   );
 }
